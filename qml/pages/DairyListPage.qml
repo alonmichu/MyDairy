@@ -31,16 +31,16 @@ Page
 
             }
 
-            MenuItem
-            {
-                text: qsTr("Фильтр")
-                onClicked:
-                {
-                    var dialog = pageStack.push(Qt.resolvedUrl("FilterChoosePage.qml"));
-
-                }
-
-            }
+//            MenuItem
+//            {
+//                text: qsTr("Фильтр")
+//                onClicked:
+//                {
+//                    var dialog = pageStack.push(Qt.resolvedUrl("FilterChoosePage.qml"));
+//
+//               }
+//
+//            }
         }
         delegate: BackgroundItem
         {
